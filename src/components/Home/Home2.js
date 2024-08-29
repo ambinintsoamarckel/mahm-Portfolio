@@ -8,13 +8,14 @@ import {
   AiOutlineFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={7} className="home-about-description">
+        <Col md={7} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               JE ME <span className="purple"> PRÉSENTE </span>
             </h1>
@@ -28,14 +29,14 @@ function Home2() {
               <br />
               <br />
               <i>
-                <b className="purple">Développement Web et Mobile : </b> Je me suis spécialisé dans des technologies modernes comme <b className="purple">React.js, Node.js, PHP,</b> et <b className="purple">Flutter.</b> J'ai également travaillé avec <b className="purple">Blockchain</b> et d'autres technologies émergentes.
+                <b className="purple">Développement Web et Mobile : </b> Je me suis spécialisé dans des technologies modernes comme <b className="purple">React.js, Node.js, PHP,</b> et <b className="purple">Flutter.</b>
               </i>
               <br />
               <br />
               En parallèle, j'ai aussi développé des compétences solides en <b className="purple">Systèmes et Réseaux</b>, en utilisant des outils comme <b className="purple">Cisco, Linux,</b> et <b className="purple">Windows Server.</b> J'ai mis en place des serveurs, configuré des réseaux, et travaillé avec des technologies de virtualisation telles que <b className="purple">Docker</b> et <b className="purple">VMware.</b>
             </p>
           </Col>
-          <Col md={5} className="myAvtar" style={{ paddingRight:"0",paddingTop:"20%"  }}>
+          <Col md={5} className="myAvtar" style={{ paddingRight:"0", paddingTop:"20%" }}>
             <Tilt>
               <img
                 src={myImg}
@@ -45,7 +46,6 @@ function Home2() {
               />
             </Tilt>
           </Col>
-
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
@@ -89,6 +89,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://wa.me/+261345162831"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaWhatsapp />
                 </a>
               </li>
             </ul>

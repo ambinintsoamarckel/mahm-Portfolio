@@ -7,7 +7,7 @@ import {
   AiFillFacebook,
   AiOutlineFacebook,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -63,6 +63,16 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
+            <li className="social-icons">
+                <a
+                  href="https://wa.me/+261345162831"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "white" }}
+                >
+                  <FaWhatsapp />
+                </a>
+              </li>
           </ul>
         </Col>
       </Row>
