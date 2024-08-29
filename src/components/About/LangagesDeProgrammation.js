@@ -1,13 +1,8 @@
 import React, { useState, useRef } from "react";
 import { Col, Row, Tooltip, Overlay } from "react-bootstrap";
-import { SiPython, SiCsharp, SiCplusplus, SiJava, SiC } from "react-icons/si";
+import { SiPython, SiCsharp, SiCplusplus, SiC } from "react-icons/si";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
+
   DiJava,
 } from "react-icons/di";
 function LangagesDeProgrammation() {

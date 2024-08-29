@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineFacebook,
 } from "react-icons/ai";
@@ -15,7 +14,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={7} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               JE ME <span className="purple"> PRÉSENTE </span>
             </h1>
@@ -36,11 +35,17 @@ function Home2() {
               En parallèle, j'ai aussi développé des compétences solides en <b className="purple">Systèmes et Réseaux</b>, en utilisant des outils comme <b className="purple">Cisco, Linux,</b> et <b className="purple">Windows Server.</b> J'ai mis en place des serveurs, configuré des réseaux, et travaillé avec des technologies de virtualisation telles que <b className="purple">Docker</b> et <b className="purple">VMware.</b>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={5} className="myAvtar" style={{ paddingRight:"0",paddingTop:"20%"  }}>
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{ width: "120%", height: "auto" }} // Ajustez la largeur et la hauteur ici
+              />
             </Tilt>
           </Col>
+
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
