@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Col, Row, Tooltip, Overlay } from "react-bootstrap";
-import { SiPython, SiCsharp, SiCplusplus, SiJava } from "react-icons/si";
+import { SiPython, SiCsharp, SiCplusplus, SiJava, SiC } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -23,7 +23,7 @@ function LangagesDeProgrammation() {
   const icons = [
     { ref: targetRefs.python, icon: <SiPython />, tooltip: "Python" },
     { ref: targetRefs.csharp, icon: <SiCsharp />, tooltip: "C#" },
-    { ref: targetRefs.c, icon: <SiCplusplus />, tooltip: "C" },
+    { ref: targetRefs.c, icon: <SiC />, tooltip: "C" },
     { ref: targetRefs.java, icon: <DiJava />, tooltip: "Java" },
     { ref: targetRefs.cpp, icon: <SiCplusplus />, tooltip: "C++" },
   ];

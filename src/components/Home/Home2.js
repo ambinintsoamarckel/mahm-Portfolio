@@ -20,7 +20,7 @@ function Home2() {
               JE ME <span className="purple"> PRÉSENTE </span>
             </h1>
             <p className="home-about-body">
-              Étudiant en 3ème année de Licence Informatique à l'École Nationale d'Informatique de Fianarantsoa, je suis passionné par le domaine de l'IT et j'ai acquis des compétences solides dans plusieurs domaines, notamment :
+              Étudiant en 3ème année de Licence en Informatique à l'École Nationale d'Informatique de Fianarantsoa, je suis passionné par le domaine de l'IT et j'ai acquis des compétences solides dans plusieurs domaines, notamment :
               <br />
               <br />
               <i>
