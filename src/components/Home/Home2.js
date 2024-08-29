@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -16,27 +17,23 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              JE ME <span className="purple"> PRESENTE </span>
+              JE ME <span className="purple"> PRÉSENTE </span>
             </h1>
             <p className="home-about-body">
-              J'adore l'IT  et j'ai beacoups appris dans ces domaines
-              , Je crois… 🤷‍♂️
+              Étudiant en 3ème année de Licence Informatique à l'École Nationale d'Informatique de Fianarantsoa, je suis passionné par le domaine de l'IT et j'ai acquis des compétences solides dans plusieurs domaines, notamment :
               <br />
-              <br />Dans le domaine de la programmation J'ai commencé par les langages de bas niveau
+              <br />
               <i>
-                <b className="purple"> c ,C++, Java C# Assembler. </b>
+                <b className="purple">Programmation : </b> J'ai débuté avec des langages de bas niveau tels que le <b className="purple">C, C++,</b> et le <b className="purple">Java.</b> J'ai ensuite élargi mes compétences à des langages plus avancés comme le <b className="purple">C#</b> et l'<b className="purple">Assembler</b>.
               </i>
               <br />
               <br />
-              Après je me suis interessés aux Technologies de developpement web et mobiles;
               <i>
-                <b className="purple">react.js node.js php flutter </b> et autres
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">Développement Web et Mobile : </b> Je me suis spécialisé dans des technologies modernes comme <b className="purple">React.js, Node.js, PHP,</b> et <b className="purple">Flutter.</b> J'ai également travaillé avec <b className="purple">Blockchain</b> et d'autres technologies émergentes.
               </i>
               <br />
               <br />
+              En parallèle, j'ai aussi développé des compétences solides en <b className="purple">Systèmes et Réseaux</b>, en utilisant des outils comme <b className="purple">Cisco, Linux,</b> et <b className="purple">Windows Server.</b> J'ai mis en place des serveurs, configuré des réseaux, et travaillé avec des technologies de virtualisation telles que <b className="purple">Docker</b> et <b className="purple">VMware.</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -51,7 +48,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/ambinintsoamarckel"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -61,17 +58,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://web.facebook.com/ambinintsoahaja.marckel"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/marckel-marson-b488a0281/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -81,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/mahmarckmarson/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -96,4 +93,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

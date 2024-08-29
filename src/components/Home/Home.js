@@ -12,6 +12,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
+            {/* Section pour la présentation de votre nom et les compétences */}
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 SALUT!{" "}
@@ -22,7 +23,7 @@ function Home() {
 
               <h1 className="heading-name">
                 JE SUIS
-                <strong className="main-name"> MARSON MARCKEL</strong>
+                <strong className="main-name"> MARCKEL MARSON</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -30,6 +31,7 @@ function Home() {
               </div>
             </Col>
 
+            {/* Section pour l'image d'accueil */}
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
@@ -41,6 +43,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      {/* Section secondaire pour des informations supplémentaires */}
       <Home2 />
     </section>
   );
